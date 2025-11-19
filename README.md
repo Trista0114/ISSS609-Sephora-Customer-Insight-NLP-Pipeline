@@ -20,7 +20,7 @@ This project addresses the challenge faced by e-commerce platforms like Sephora 
 * **Technology:** Used a fine-tuned **BERT Model** (Regression-based approach) to predict review star ratings.
 * **Goal:** Obtain granular, continuous sentiment scores for precise analysis.
 
-### Stage 2: Weighted Topic Modeling (Core Contribution)
+### Stage 2: Weighted Topic Modeling 
 * **Technology:** A hybrid method combining **SBERT embeddings + K-Means Clustering** for initial grouping, refined using **LDA** for topic clarity.
 * **Innovation:** Calculated **Weighted Sentiment Scores** for each topic based on frequency and severity, ensuring business relevance.
 
