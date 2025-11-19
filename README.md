@@ -1,6 +1,6 @@
 # Sephora Customer Insight NLP Pipeline
 
-**[📚 Click to view the detailed Project Slides (PDF)]**(./Group5%20Slides.pdf)
+**[📚 View "Group5 Slides" for detailed Info (PDF)]**
 ---
 
 ## Project Overview: Transforming Reviews into Strategic Intelligence
@@ -15,8 +15,6 @@ This project addresses the challenge faced by e-commerce platforms like Sephora 
 
 ## System Architecture: The 3-Stage Insight Pipeline
 <img width="1011" height="264" alt="image" src="https://github.com/user-attachments/assets/c6fb0a9e-4512-4f96-9a95-2dff51f8b97a" />
-
-The pipeline follows three tightly connected stages:
 
 ### Stage 1: Sentiment Analysis
 * **Technology:** Used a fine-tuned **BERT Model** (Regression-based approach) to predict review star ratings.
@@ -36,6 +34,7 @@ The pipeline follows three tightly connected stages:
 My primary responsibility centered on the crucial **Topic Modeling and Clustering** phase, ensuring the business insights were precise and actionable.
 
 * **Core Contribution:** Implemented and optimized the **SBERT + K-Means Clustering model** (`Sbert_Kmeans.ipynb`) to cluster reviews into distinct, actionable product features.
+* **Data Preporcessing:** Cleaned the raw text data and performed normalization and filtering necessary for accurate SBERT embedding generation.
 * **Logic Development:** Developed the logic for calculating and applying the **Weighted Sentiment Score** to accurately reflect problem severity.
 * **Tool Proficiency:** Demonstrated expertise in the end-to-end NLP workflow involving SBERT, K-Means, and downstream integration with LDA and LLMs.
 
